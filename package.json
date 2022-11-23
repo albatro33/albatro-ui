@@ -2,8 +2,8 @@
   "name": "albatro-ui",
   "version": "0.0.0",
   "type": "module",
-  "author":"albatro33",
-  "lisence":"MIT",
+  "author": "albatro33",
+  "lisence": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
