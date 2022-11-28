@@ -18,9 +18,9 @@ pipeline {
       }
     }
 
-    stage("move build") {
+    stage("copy build") {
       steps {
-        sh "mv build /var/www/albatro33.com"
+        sh "mv dist /var/www/albatro33.com"
       }
     }
   }
