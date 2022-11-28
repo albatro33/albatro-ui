@@ -20,7 +20,7 @@ pipeline {
 
     stage("copy build") {
       steps {
-        sh "cp -r dist /var/www/albatro33.com"
+        sh "cp -r dist/* /var/www/albatro33.com"
       }
     }
   }
