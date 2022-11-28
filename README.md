@@ -1,2 +1,2 @@
 check jenkins
-jenkins test2
+jenkins test1
