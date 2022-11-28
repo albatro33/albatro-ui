@@ -1,9 +1,5 @@
 pipeline {
-  agent{
-    docker{
-      image 'node:14'
-    }
-  }
+  agent none
   stages {
     stage("install"){
       steps {
@@ -14,6 +10,12 @@ pipeline {
     stage("build") {
       steps {
         sh "yarn build"
+      }
+    }
+
+    stage("move build") {
+      steps {
+        sh "sudo mv build /var/www/albatro33.com"
       }
     }
   }
