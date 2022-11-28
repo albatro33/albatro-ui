@@ -1,1 +1,2 @@
 check jenkins
+jenkins test
