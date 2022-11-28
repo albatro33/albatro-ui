@@ -1,2 +1,1 @@
-check jenkins
-jenkins test1
+jenkins webhook set complete
