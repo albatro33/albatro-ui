@@ -20,7 +20,7 @@ pipeline {
 
     stage("move build") {
       steps {
-        sh "sudo mv build /var/www/albatro33.com"
+        sh "mv build /var/www/albatro33.com"
       }
     }
   }
