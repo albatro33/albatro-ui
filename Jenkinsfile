@@ -1,5 +1,8 @@
 pipeline {
-  agent none
+  agent {
+    none
+  }
+  
   stages {
     stage("install"){
       steps {
