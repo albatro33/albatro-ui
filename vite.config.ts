@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import Makrdown from 'vite-plugin-md'
+import Makrdown from '@pity/vite-plugin-react-markdown'
 
 // https://vitejs.dev/config/
 export default defineConfig({
