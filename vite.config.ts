@@ -6,6 +6,6 @@ import mdPlugin from 'vite-plugin-markdown'
 export default defineConfig({
   plugins: [
     react(),
-    mdPlugin()
+    mdPlugin.default()
   ]
 })
